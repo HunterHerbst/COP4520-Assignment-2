@@ -13,7 +13,7 @@ In order to enforce and check this is accurate, after Guest 0 notifies completio
 to see if it's `true`
 */
 
-package org.example;
+//package org.example;
 
 import java.util.Random;
 import java.util.concurrent.*;
@@ -22,7 +22,7 @@ public class MinotaurParty {
 
     // Parameters based on premise
     private static final Object lock = new Object();
-    public static final int N_GUESTS = 3;
+    public static final int N_GUESTS = 10;
     private static final Guest[] guestList = new Guest[N_GUESTS];
     private static boolean cupcakePresent = true;
     private static boolean allDone = false;
